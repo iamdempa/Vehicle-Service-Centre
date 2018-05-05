@@ -1,0 +1,41 @@
+
+.navigation-bar{
+    background-color: white;        
+    box-shadow: 0px 0px 20px 0px #000000;    
+    border-radius: 0px !important;    
+}
+ul li a{
+    color: #68484a;
+    /*color:#28a3dc;*/
+    font-family:"Museo 700";
+}
+nav a{
+    color: #e4777b;
+    font-weight: bold; 
+}
+.vertical-line{
+  border-right: 1px solid #000;
+}
+.navbar-nav span{
+    /*padding-top: 10px;*/
+    padding-top: 11px;
+    padding-left: 10px;
+}
+.navbar-nav .dropdown-services a{
+    font-family: Myriad Pro;
+    /*border: 1px solid red;*/ 
+/*    text-decoration: none;*/
+    font-weight: bold;    
+}
+.navbar-nav .dropdown-services a:hover{
+       /*border: 1px solid red;*/
+       background: #e4777b;
+       
+}
+.logo{
+    width: 40px;
+    height: auto;   
+}
+.navbar-brand{
+    padding-left: 10px;
+}

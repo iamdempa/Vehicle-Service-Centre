@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 12, 2017, 4:59:11 PM
+    Author     : Last Kings
+*/
+#time,#date{
+    font-size: 20px;
+    font-weight: bold;
+    /*color: #4b5257;*/
+    color: white;
+}
+.page-headline  div.col-md-2 { /*date and time holding columns*/
+    padding-top: 10px;
+    border-radius: 5px;      
+    color: white;
+    background-color: orange;
+}
+.options div button{
+    /*width: 200px;*/    
+}
+nav.navbar a.logout {
+  margin-left: 650px;
+  /*float: right;*/
+}

@@ -1,0 +1,69 @@
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+#myCarousel{
+    margin-bottom: 5px; /*to decrease the gap between carousel and the side navigation*/
+   
+}
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+    height: 50%;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+    bottom: 3rem;  
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+    background-color: #777;
+}
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+#carousel-btn{
+    background-color: #00C851; /*background color of corousel buttons*/
+}
+.carousel-indicators li{ /*properties related to carousel indicators*/
+    border-radius: 0%!important;   
+    
+}
+@media(max-width:768px){
+    .carousel-caption{
+        display: block!important; /*display carousel caption*/
+        /*border: 1px solid red;*/
+        margin-bottom: 10px;
+    }
+    .carousel-caption h1{
+        font-size: 1.8em; /*decrease font size of carousel h1 tag*/
+    }
+    .carousel-caption p{
+        font-size: 0.9em; /*decrease the font size of carousel paragraph*/
+    }
+}
+@media(max-width:576px){    
+    .container-carousel{
+        width: 500px; /*increae the carousel container size so that they fit nicely*/
+    }
+    .text-left,.text-right{
+        text-align:center!important /*center-align the text*/  
+    }
+
+}
+@media(max-width:320px){
+    .carousel-caption h1{
+        font-size: 1.5em; /*decrease font size of carousel h1 tag*/
+    }
+    .carousel-caption p{
+        font-size: 0.7em; /*decrease the font size of carousel paragraph*/
+    }
+    .carousel-caption{              
+        margin-bottom: 30px;
+    }
+}
